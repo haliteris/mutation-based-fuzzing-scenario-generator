@@ -1,0 +1,103 @@
+{
+  "weather": {
+    "Cloud": {
+      "cloudState": ["rainy"]
+    },
+
+    "Sun": {
+      "azimuth": [0],
+      "intensity": [0.75],
+      "elevation": [0.7]
+    },
+
+    "Precipitation": {
+      "precipitationType": ["rain"],
+      "intensity": [0.8]
+    },
+
+    "RoadCondition": {
+      "frictionScaleFactor": [1.0]
+    }
+  },
+
+  "hero": {
+    "Performance": {
+      "maxAcceleration": [60],
+      "maxDeceleration": [60]
+    },
+
+    "SpeedActionTarget": {
+      "AbsoluteTargetSpeed": [10]
+    }
+  },
+
+  "adversary": {
+    "Vehicle": {
+      "vehicleModel": ["vehicle.mercedes.coupe"]
+    },
+
+    "Performance": {
+      "maxAcceleration": [60],
+      "maxDeceleration": [60]
+    },
+
+    "SpeedActionTarget": {
+      "AbsoluteTargetSpeed": [10]
+    },
+
+    "LanePosition": {
+      "s": [20]
+    }
+  },
+
+  "pedestrian": {
+    "Pedestrian": {
+      "PedestrianType": ["walker.pedestrian.0004"]
+    },
+
+    "LanePosition": {
+      "s": [180]
+    },
+
+    "Events": {
+      "PedestrianStarts": {
+        "SpeedActionTarget": {
+          "AbsoluteTargetSpeed": [2]
+        },
+
+        "Distance": {
+          "DistanceDelta": [7]
+        }
+      }
+
+    },
+
+    "bicycle": {
+      "Performance": {
+        "maxAcceleration": [30],
+        "maxDeceleration": [30]
+      },
+
+      "Events": {
+        "BicycleStarts": {
+          "SpeedActionTarget": {
+            "AbsoluteTargetSpeed": [5]
+          }
+        },
+
+        "BicycleStopsAndWaits": {
+          "SpeedActionDynamics": {
+            "value": [5],
+            "dynamicsDimension": "time"
+          }
+        },
+
+        "BicycleControl": {
+          "SpeedActionTarget": {
+            "AbsoluteTargetSpeed": [6]
+          }
+        }
+      }
+    }
+  }
+}

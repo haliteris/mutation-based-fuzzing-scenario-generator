@@ -62,5 +62,7 @@ python scenario_mutator.py --iter 600 --parent_path /My-Directories/git/Mutation
 - **Logging**: Generate detailed log files tracking all mutations.
 - **Compatibility**: Designed for integration with CARLA simulator for autonomous driving scenario testing.
 
-## Author
+## Authors
 **Halit Eriş, Research Assistant, Chair of Software Engineering, Technical University of Munich, halit.eris@tum.de**
+
+**Stefan Wagner, Professor of Software Engineering, Chair of Software Engineering, Technical University of Munich, stefan.wagner@tum.de**

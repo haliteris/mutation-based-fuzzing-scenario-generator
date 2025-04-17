@@ -3,6 +3,10 @@
 ## Overview
 The **Mutation-based Scenario Fuzzer-v2** is a tool designed to generate mutated scenarios for the CARLA simulator. This fuzzer utilizes predefined scenarios from EURONCAP and SafetyPool as a base, mutates their parameters, and logs the changes for further analysis. The tool is versatile, allowing customization of the number of iterations and directory paths for input and output files.
 
+This tool was developed as a study which was funded by the Ministry of Science, Research, and the Arts of the Federal State of Baden-Württemberg as part of the financial support for the project SdMobi5—TESSOF within the Innovation Campus Mobility of the Future. For more details: https://www.icm-bw.de/forschung/projektuebersicht/detailseite/sdmobi5-tessof
+
+The paper is accepted and results are shared in:https://www.sae.org/publications/technical-papers/content/2025-01-0297/
+
 ---
 
 ## Repository Structure
